@@ -2,6 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+const computeData1 = (number) => {
+  const numberDoubled = number * 2
+  const numberTripled = numberDoubled * 3
+  return numberTripled
+}
+
+const computeData2 = (number) => {
+  const numberDoubled = number * 2
+  const numberTripled = numberDoubled * 3
+  return numberTripled
+}
+
 export default function Home() {
   return (
     <div className={styles.container}>
